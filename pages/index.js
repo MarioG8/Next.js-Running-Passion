@@ -1,10 +1,19 @@
 import Head from "next/head";
+import { useEffect } from "react";
 import Divider from "../components/Divider";
 import Events from "../components/Events";
 import InfoSection from "../components/InfoSection";
 import Testimonials from "../components/Testimonials";
 
 export default function Home({ data, errorCode }) {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  }, []);
+
   return (
     <>
       <Head>
