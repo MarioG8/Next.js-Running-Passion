@@ -1,10 +1,7 @@
 import { MongoClient } from "mongodb";
 
 export const connectDB = async () => {
-  const client = await MongoClient.connect(process.env.MONGO_URL, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  });
+  const client = await MongoClient.connect(process.env.MONGO_URL);
   return client;
 };
 
