@@ -30,7 +30,6 @@ export default async function handler(req, res) {
       res.status(500).json({ message: "Inserting DATA Failed!!" });
       return;
     }
-
     res.status(201).json({ message: "Feedback Sent!" });
   }
 }
