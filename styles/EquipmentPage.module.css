@@ -28,10 +28,10 @@
 
 .wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 3rem;
+  gap: 6rem;
   padding: 1rem;
   margin: 0.5rem;
 }
