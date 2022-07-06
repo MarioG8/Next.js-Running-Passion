@@ -24,20 +24,33 @@ function EquipmentPage() {
         </div>
         <div className={styles.wrapper}>
           <AwesomeCard
+            img="/images/shoe_005.jpg"
+            title="Shoes"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            link="https://www.baa.org/"
+          />
+          <AwesomeCard
             img="/images/t-shirts.jpg"
             title="Clothes"
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
             link="https://www.zuerichmarathon.ch/"
           />
           <AwesomeCard
-            img="/images/polar_m430.jpg"
+            img="/images/POLAR-V800.jpg"
             title="Watches"
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
             link="https://www.marathon.tokyo/en/"
           />
+
           <AwesomeCard
-            img="/images/shoe_005.jpg"
-            title="Shoes"
+            img="/images/airpods_000.jpg"
+            title="Headphones"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            link="https://www.baa.org/"
+          />
+          <AwesomeCard
+            img="/images/blackroll.jpg"
+            title="Staff"
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
             link="https://www.baa.org/"
           />
