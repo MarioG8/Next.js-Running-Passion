@@ -4,8 +4,8 @@ date: 'March 5, 2022'
 excerpt: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis ratione voluptates sed repellendus tempora et ipsa sapiente, iure, exercitationem consequuntur eius dignissimos, labore dolorem facilis. Dignissimos ut impedit veniam, sit sed assumenda soluta ea sint alias nobis laudantium tempore'
 cover_image: '/images/run_06.jpg'
 category: 'Marathon'
-author: 'Princess Akachi'
-author_image: '/images/prince-akachi.jpg'
+author: 'Julian Wan'
+author_image: '/images/julian-wan.jpg'
 ---
 
 ## O contra diu
